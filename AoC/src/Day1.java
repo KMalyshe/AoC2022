@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-public class Day1 {
-// C:\Users\kyryl\Documents\eclipse\AoC\src\day1.txt
-	
+public class Day1 {	
 	public static void main(String[] args) {
 		int midsum = 0;
 		int max1 = 0;
