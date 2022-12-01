@@ -36,8 +36,6 @@ public class Day1 {
 			}
 		}
 		System.out.println(max2);
-		added.remove(currenti);
-		currenti = 0;
 		for (int i = 0; i<added.size(); i++) {
 			if ((max1 == added.get(i)) || (max2 == added.get(i))) {
 				continue;
