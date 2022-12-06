@@ -4,15 +4,15 @@ public class Day6 {
 	public static void main(String[] args) {
 		ArrayList<String> inputs = FileReader.bububu();
 		String str = inputs.get(0);
-		int distinct = 14;
-		for (int i = distinct-1; i<str.length(); i++) {
+		int mrlglr = 14;
+		for (int i = mrlglr-1; i<str.length(); i++) {
 			boolean found = true;
-			char[] tmp = new char[distinct];
-			for (int j = 0; j<distinct; j++) {
-				tmp[j] = str.charAt(i - (distinct - 1) + j);
+			char[] tmp = new char[mrlglr];
+			for (int j = 0; j<mrlglr; j++) {
+				tmp[j] = str.charAt(i - (mrlglr - 1) + j);
 			}
-			for (int j = 0; j<distinct; j++) {
-				for (int k = 0; k<distinct; k++) {
+			for (int j = 0; j<mrlglr; j++) {
+				for (int k = 0; k<mrlglr; k++) {
 					if (k != j && tmp[j] == tmp[k]) {
 						found = false;
 					}
